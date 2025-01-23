@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code with Border</title>
+  <style>
+    .qr-container {
+      width: 150px; /* Adjust size as needed */
+      height: 150px; /* Match width */
+      padding: 10px; /* Space around the QR code */
+      border: 10px solid #E0E0E0; /* Light gray border */
+      border-radius: 10px; /* Rounded corners */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .qr-image {
+      width: 100%; /* Adjust as needed */
+      height: 100%;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <div class="qr-container">
+    <img src="qrimg.png" alt="QR Code" class="qr-image">
+  </div>
+</body>
+</html>
